@@ -1,0 +1,121 @@
+/* Button */
+.button {
+  display: inline-block;
+  color: var(--white-color);
+  background-color: var(--accent-color);
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.87;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-decoration: none;
+  border-radius: 4px;
+  border: 1px solid transparent;
+  padding: 10px 32px;
+  margin-top: 30px;
+}
+
+/* Hero */
+.hero {
+  text-align: center;
+  background-color: var(--background-dark-color);
+  height: 600px;
+}
+
+.hero-title {
+  color: var(--white-color);
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  text-align: center;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  padding-top: 200px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+/* Section */
+.section {
+  padding-top: 94px;
+}
+
+.section-title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+}
+
+/* Advantages */
+.advantages.list {
+  display: flex;
+}
+
+.advantages.list .item + .item {
+  margin-left: 30px;
+}
+
+.advantages .title {
+  color: var(--title-text-color);
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  text-transform: uppercase;
+}
+
+.advantages .item p {
+  margin-top: 10px;
+}
+
+/* Operations */
+.operations.list {
+  display: flex;
+  margin-top: 50px;
+}
+
+.operations.list .item + .item {
+  margin-left: 30px;
+}
+
+/* Team */
+.team.section {
+  background-color: var(--background-light-color);
+}
+
+.team.section .container {
+  padding-top: 94px;
+  padding-bottom: 94px;
+}
+
+.team .title {
+  color: var(--title-text-color);
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team.list {
+  display: flex;
+  margin-top: 50px;
+}
+
+.team.list .item + .item {
+  margin-left: 30px;
+}
+
+.team.list .item h3 {
+  margin-top: 30px;
+}
+
+.team.list .item p {
+  margin-top: 10px;
+}
