@@ -6,6 +6,8 @@
   --accent-color: #2196f3;
   --background-light-color: #f5f4fa;
   --background-dark-color: #2f303a;
+  --option-light-color-a: #ececec;
+  --option-light-color-b: #eeeeee;
 }
 
 .list {
@@ -52,6 +54,7 @@ body {
 /* Header */
 header {
   background-color: var(--white-color);
+  border-bottom: 1px solid var(--option-light-color-a);
 }
 
 header .container {
@@ -101,6 +104,8 @@ header .container {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .site-nav .link:hover,
