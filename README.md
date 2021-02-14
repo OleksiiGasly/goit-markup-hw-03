@@ -1,5 +1,5 @@
-# goit-markup-hw-02
+# goit-markup-hw-03
 
-https://oleksiigasly.github.io/goit-markup-hw-02/index.html
+https://oleksiigasly.github.io/goit-markup-hw-03/portfolio.html
 
-https://github.com/OleksiiGasly/goit-markup-hw-02
+https://github.com/OleksiiGasly/goit-markup-hw-03
